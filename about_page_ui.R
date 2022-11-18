@@ -1,0 +1,15 @@
+about_page_ui <- fluidPage(fluidRow(column(8,offset=2,style = "width:80%; align:center;",
+                                                              includeMarkdown("www/mod2.md"),
+                                                              h3("How-To:"),
+                                                              br(),
+                                                              h4(strong("- Uploading files")),
+                                                              br(),
+                                                              img(src="upload.gif", width="80%" , align= "center"),
+                                                              br(),
+                                                              br(),
+                                                              br(), 
+                                                              h4(strong("- Selecting Metrics")),
+                                                              br(),
+                                                              img(src="metrics.gif", width="80%" , align= "center")
+                                           )),
+                          )
